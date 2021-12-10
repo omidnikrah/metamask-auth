@@ -7,7 +7,8 @@
     "packages/*"
   ],
   "scripts": {
-    "backend:dev": "nodemon --watch 'packages/back-end/src/**/*.ts' --exec 'ts-node' packages/back-end/src/index.ts",
+    "backend:dev": "cd packages/back-end && npm run dev",
+    "frontend:dev": "cd packages/front-end && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

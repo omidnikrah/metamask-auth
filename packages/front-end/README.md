@@ -1,0 +1,2 @@
+# @metamask-auth/front-end
+
